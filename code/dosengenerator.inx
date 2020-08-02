@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
   <_name>Can Generator</_name>
-  <id>fablabchemnitz.de.can_generator</id>
+  <id>githubacct.uniqueid.Dosengenerator</id>
   <param name="active-tab" type="notebook">
     <page name="config" _gui-text="Configuration">
       <param name="diameter" type="int" min="3" max="1200" _gui-text="Diameter of the can in mm">30</param>
@@ -19,12 +19,10 @@
   <effect>
     <object-type>all</object-type>
     <effects-menu>
-         <submenu _name="FabLab Chemnitz">
-            <submenu _name="Finger-jointed/Tabbed Boxes" />
-         </submenu>
+      <submenu _name="erfindergarden" />
     </effects-menu>
   </effect>
   <script>
-    <command reldir="extensions" interpreter="python">fablabchemnitz_can_generator.py</command>
+    <command reldir="extensions" interpreter="python">dosengenerator.py</command>
   </script>
 </inkscape-extension>
